@@ -1,11 +1,19 @@
 {
-  "name": "mixed-progress",
+  "name": "the-ultimate-unicorn",
   "version": "0.0.1",
   "description": "CLI Progress bar",
   "main": "index.js",
   "engines": {
     "node": "^16.0.0"
   },
+  "keywords": [
+    "progress",
+    "cli",
+    "node",
+    "multi",
+    "bar",
+    "loader"
+  ],
   "scripts": {
     "check:update": "npm-check -u",
     "lint": "eslint .",
