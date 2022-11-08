@@ -1,3 +1,3 @@
-const MixedProgress = require('./lib');
+const ProgressBar = require('./lib');
 
-module.exports = MixedProgress;
+module.exports = ProgressBar;

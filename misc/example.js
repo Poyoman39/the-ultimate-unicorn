@@ -1,7 +1,7 @@
 [
-  new MixedProgress({ title: 'Potatoes', total: 100 }),
-  new MixedProgress({ title: 'Tomatoes', total: 1000 }),
-  new MixedProgress({ title: 'Carrots', total: 300 }),
+  new ProgressBar({ title: 'Potatoes', total: 100 }),
+  new ProgressBar({ title: 'Tomatoes', total: 1000 }),
+  new ProgressBar({ title: 'Carrots', total: 300 }),
 ].forEach((progressBar) => {
   const intervalId = setInterval(() => {
     progressBar.tick();
