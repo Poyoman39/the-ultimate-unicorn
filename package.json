@@ -1,0 +1,26 @@
+{
+  "name": "mixed-progress",
+  "version": "0.0.1",
+  "description": "CLI Progress bar",
+  "main": "index.js",
+  "engines": {
+    "node": "^16.0.0"
+  },
+  "scripts": {
+    "check:update": "npm-check -u",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "author": "Johan Maupetit (johan.maupetit@shapy.co)",
+  "license": "LGPL 2.1",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "npm-check": "^6.0.1"
+  }
+}
