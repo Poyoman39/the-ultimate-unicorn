@@ -37,7 +37,6 @@ Create a  new progressBar
  - **options.total** *(default: 100)* ***int***: Total tick to consider the progressBar complete
  - **options.title** *(default: '')* ***string***: Title of the progressBar
  - **options.current** *(default 0)* ***int***: Initial progressBar ticks
- - **options.renderThrottle** *(default 16)* ***int***: Minimum period beteween 2 progressBar render
  - **options.chars** *(default `{ complete: '=', incomplete: '-' }`)* ***object***: Characters use to draw the progressBar
  - **options.format** *(default ':title [:bar] :etas')* ***string***: Template string used to draw the progressBar
 
@@ -45,4 +44,8 @@ Create a  new progressBar
 ### progressBar.tick()
 Add a tick to a ProgressBar instance
 
-
+---
+### MixedProgress statics
+ - **MixedProgress.renderThrottle** *(default 16)* ***int***: Minimum period beteween 2 progressBar render
+*(default: 16)*
+- **MixedProgress.stream** *(default  process.stderr)* ***stream***: Output stream
