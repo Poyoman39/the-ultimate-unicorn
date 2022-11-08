@@ -1,6 +1,6 @@
 {
   "name": "the-ultimate-unicorn",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "CLI Progress bar",
   "main": "index.js",
   "engines": {
