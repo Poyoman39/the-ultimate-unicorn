@@ -45,7 +45,8 @@ Create a  new progressBar
 Add a tick to a ProgressBar instance
 
 ---
-### MixedProgress statics
- - **MixedProgress.renderThrottle** *(default 16)* ***int***: Minimum period beteween 2 progressBar render
+### *Static properties*
+ - **ProgressBar.renderThrottle** *(default 16)* ***int***: Minimum period beteween 2 progressBar render
 *(default: 16)*
-- **MixedProgress.stream** *(default  process.stderr)* ***stream***: Output stream
+- **ProgressBar.stream** *(default  process.stderr)* ***stream***: Output stream
+
