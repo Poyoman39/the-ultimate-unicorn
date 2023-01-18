@@ -25,9 +25,6 @@
   },
   "author": "Johan Maupetit (johan.maupetit@shapy.co)",
   "license": "LGPL 2.1",
-  "dependencies": {
-    "chalk": "^5.0.1"
-  },
   "devDependencies": {
     "@babel/core": "^7.19.1",
     "@babel/eslint-parser": "^7.19.1",
