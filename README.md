@@ -45,8 +45,11 @@ Create a  new progressBar
 Add a tick to a ProgressBar instance
 
 ---
+### progressBar.complete()
+Force complete a progress bar
+
+---
 ### *Static properties*
  - **ProgressBar.renderThrottle** *(default 16)* ***int***: Minimum period beteween 2 progressBar render
 *(default: 16)*
 - **ProgressBar.stream** *(default  process.stderr)* ***stream***: Output stream
-
