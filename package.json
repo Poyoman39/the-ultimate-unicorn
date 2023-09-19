@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Poyoman39/the-ultimate-unicorn.git"
+    "url": "git+ssh://git@github.com/Poyoman39/the-ultimate-unicorn.git"
   },
   "keywords": [
     "progress",
